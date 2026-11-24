@@ -7,7 +7,7 @@
 
 const API_URL = String((window.CC_CONFIG && window.CC_CONFIG.API_URL) || '').trim();
 const API_READY = /^https:\/\//i.test(API_URL) && !/PASTE/i.test(API_URL);
-const SCAN_LIB = 'html5-qrcode.min.js';
+const SCAN_LIB = 'vendor/html5-qrcode.min.js';
 const SYNC_BATCH = 25;
 
 /* =====================================================================
