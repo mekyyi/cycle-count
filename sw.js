@@ -3,8 +3,8 @@
 const VERSION = 'cc-v1';
 const SHELL = [
   './', './index.html', './styles.css', './app.js', './config.js', './manifest.webmanifest',
-  './vendor/html5-qrcode.min.js',
-  './icons/logo.png', './icons/icon-192.png', './icons/icon-512.png', './icons/favicon.png'
+  './html5-qrcode.min.js',
+  './logo.png', './icon-192.png', './icon-512.png', './favicon.png'
 ];
 const RUNTIME = 'cc-runtime';
 const IMAGES = 'cc-images';
